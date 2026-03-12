@@ -79,7 +79,7 @@ npm run dev
 
 ## Design Notes
 
-The team page was designed to feel like a modern company website.
-The UI focuses on clean layout, responsive design, and interactive team cards.
+The team page was designed with a modern dark theme and vibrant neon accents to create a visually engaging experience. Animated team cards, glowing shadows, and smooth interactions give the page a dynamic feel while keeping the layout clean and responsive across devices.
 
-The backend API was built with FastAPI to provide simple REST endpoints for managing team members.
+The backend was built using FastAPI to provide simple and efficient REST endpoints for fetching and managing team member data.
+
