@@ -1,31 +1,33 @@
 # Armatrix Team Page
 
-A full-stack team management page built using Next.js and FastAPI.
+A modern dark-themed team showcase built with **Next.js** and **FastAPI**, featuring animated team cards, glowing neon accents, and a simple REST API for managing team members.
+
+---
 
 ## Live Demo
 
-Frontend:
+**Frontend:**
 https://armatrix-team-page-y7wh.vercel.app/
 
-Backend API Docs:
+**Backend API Docs:**
 https://armatrix-backend-pq45.onrender.com/docs
 
 ---
 
 ## Tech Stack
 
-Frontend
+**Frontend**
 
 * React
 * Next.js
 * CSS
 
-Backend
+**Backend**
 
 * Python
 * FastAPI
 
-Deployment
+**Deployment**
 
 * Frontend deployed on Vercel
 * Backend deployed on Render
@@ -34,27 +36,28 @@ Deployment
 
 ## Features
 
-* Displays team members on a responsive team page
-* Add new team members
-* Edit existing team members
-* Delete team members
+* Displays team members in animated profile cards
+* Clicking a team card opens a popup with detailed member information
+* Add, edit, and delete team members
 * Backend REST API for managing team data
 * Responsive UI for desktop and mobile
+* Dark-themed interface with vibrant neon accents and glowing card shadows
+* Uses stylized robot avatars instead of real photos to keep the interface visually consistent
 
 ---
 
 ## API Endpoints
 
-GET /team
+**GET /team**
 Fetch all team members
 
-POST /team
+**POST /team**
 Add a team member
 
-PUT /team/{id}
+**PUT /team/{id}**
 Update a team member
 
-DELETE /team/{id}
+**DELETE /team/{id}**
 Delete a team member
 
 ---
@@ -79,17 +82,6 @@ npm run dev
 
 ## Design Notes
 
-The team page was designed with a modern dark theme and vibrant neon accents to create a visually engaging experience. Animated team cards, glowing shadows, and smooth interactions give the page a dynamic feel while keeping the layout clean and responsive across devices.
+The team page was designed with a **modern dark theme and vibrant neon accents** to create a visually engaging experience. Animated profile cards, glowing shadows, and smooth interactions give the interface a dynamic feel while keeping the layout clean and responsive across devices.
 
-Uses stylized robot avatars for team members to maintain a consistent and playful visual identity instead of real photos.
-
-
-The backend was built using FastAPI to provide simple and efficient REST endpoints for fetching and managing team member data.
-### Features
-
-- Displays team members in animated profile cards
-- Clicking a team card opens a popup with detailed member information
-- Add, edit, and delete team members
-- Uses stylized robot avatars for team members
-- Responsive dark-themed UI with neon accents
-
+The backend was built using **FastAPI** to provide simple and efficient REST endpoints for fetching and managing team member data.
