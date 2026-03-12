@@ -81,5 +81,15 @@ npm run dev
 
 The team page was designed with a modern dark theme and vibrant neon accents to create a visually engaging experience. Animated team cards, glowing shadows, and smooth interactions give the page a dynamic feel while keeping the layout clean and responsive across devices.
 
+Uses stylized robot avatars for team members to maintain a consistent and playful visual identity instead of real photos.
+
+
 The backend was built using FastAPI to provide simple and efficient REST endpoints for fetching and managing team member data.
+### Features
+
+- Displays team members in animated profile cards
+- Clicking a team card opens a popup with detailed member information
+- Add, edit, and delete team members
+- Uses stylized robot avatars for team members
+- Responsive dark-themed UI with neon accents
 
